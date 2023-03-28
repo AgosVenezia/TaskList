@@ -76,6 +76,7 @@ historyBtn.addEventListener("click", (e)=>{
     const p = document.createElement("p");
 
     p.textContent = history[i];
+
     li.appendChild(p);
     historyList.appendChild(li);
 
