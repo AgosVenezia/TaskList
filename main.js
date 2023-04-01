@@ -6,7 +6,6 @@ const empty = document.querySelector(".empty");
 const historyBtn = document.querySelector(".btn-history");
 const historyModal = document.querySelector("#history-modal");
 const historyList = document.querySelector("#history-list");
-const closeBtn = document.querySelector("#close-btn");
 
 let history = [];
 
@@ -82,13 +81,12 @@ historyBtn.addEventListener("click", (e)=>{
 
   }
 
-  historyModal.style.display = "block"; // mostrar modal
-  closeBtn.style.display = "block";
+});  
 
-});
-  
-closeBtn.addEventListener("click", ()=>{
-  historyModal.style.display = "none"; // ocultar modal
-  closeBtn.style.display = "none";
-  
-});
+  function verHistorial() {
+    if (historyModal.style.display === "block") {
+      historyModal.style.display = "none";
+    } else {
+      historyModal.style.display = "block";
+    }
+  }

@@ -2,10 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  /*font-family: Arial, Helvetica, sans-serif;*/
   font-family: 'Nunito Sans', sans-serif;
   line-height: 1.5;
-  /*background-color: lightseagreen;*/
   background-image: url("img/blurred.jpg");
   background-size: cover;
   color: white;
@@ -13,7 +11,6 @@ body {
 
 h1 {
   text-align: center;
-  /*color: darkslategrey;*/
   color: #BEC1CA;
   font-weight: bold;
 }
@@ -97,16 +94,6 @@ li p {
   height: 32px;
   border: none;
   cursor: pointer;
-}
-
-#close-btn {
-  display: none;
-  background-color: #BEC1CA;
-  height: 32px;
-  border: none;
-  cursor: pointer;
-}
-
-#close-btn.show {
-  display: block;
+  font-family: 'Nunito Sans';
+  font-weight: 500;
 }
