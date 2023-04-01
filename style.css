@@ -97,3 +97,12 @@ li p {
   font-family: 'Nunito Sans';
   font-weight: 500;
 }
+
+.footer {
+	text-align: center;
+	text-decoration: none;
+  line-height: 0%;
+  color: black;
+  font-family: 'Nunito Sans';
+  font-weight: 500;
+}
